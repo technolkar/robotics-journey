@@ -20,4 +20,6 @@ echo "NO -run: sudo usermod -aG dialout \$USER"
 fi 
 echo ""
 echo "Robot name: $ROBOT_NAME"
-
+echo ""
+echo "--- CPU cores ---"
+nproc
