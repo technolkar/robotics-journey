@@ -23,3 +23,20 @@ echo "Robot name: $ROBOT_NAME"
 echo ""
 echo "--- CPU cores ---"
 nproc
+# ROS 2 build outputs
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editors / OS
+.vscode/
+*.swp
+
+# Secrets
+secrets.txt
+*.env

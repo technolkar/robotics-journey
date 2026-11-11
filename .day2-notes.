@@ -1,0 +1,4 @@
+Changed a file but want the last committed version back	git restore file
+Ran git add on something by mistake (before commit)	git restore --staged file
+Wrong commit message (before push)	git commit --amend -m "new message"
+See what an old version looked like	git log --oneline, then git show <id>
