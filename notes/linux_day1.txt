@@ -3,3 +3,7 @@ ls
 ls -a
 cd /opt
 cd~
+-rw-rw-r-- understood about the read only and read and write command
+sudo usermod -aG dialout $USER
+After installing Ros2
+source /opt/ros/jazzy/setup.bash
